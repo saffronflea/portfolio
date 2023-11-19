@@ -1,36 +1,19 @@
-* {
-   margin: 0 auto ;
+@font-face {
+   font-family: 'Quicksand', sans-serif;
+   src: url(Quicksand-VariableFont_wght.ttf);
 }
-
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 940px) {
    @font-face {
       font-family: 'Quicksand', sans-serif;
       src: url(Quicksand-VariableFont_wght.ttf);
    }
-   .navs {
-      position: fixed;
-      margin-top: 0;
-      margin-right: 0;
-      background-color: rgb(0, 0, 0);
-   }
-   #navbar {
-      font-size: 50px;
-      margin-right:870px;
-      color:#db3f18;
-      font-family:'Quicksand', sans-serif;
-   }
-   .navbar-brand {
-      margin-top: 10px;
+   * {
+      font-family: 'Quicksand', sans-serif;
+      color: #00F627;
+      justify-content: center;
    }
    ul li {
-      background-color:black;
-      font-size: 25px;
       list-style-type: none;
-      text-align: right;
-      color: #00F627;
-      padding-right: 20px;
-      display: inline;
-      align-items: center;
    }
    .headings {
       width: 1497px;
@@ -42,8 +25,7 @@
    }
    .headline {
       background-color:transparent;
-      left: 750px;
-      top: 180px;
+      top: 120px;
       float: right;
       position: absolute; 
       color: #00F627;
@@ -52,9 +34,9 @@
       font-family:'Quicksand', sans-serif;
    }
    .subtitle {
-      background-color:transparent;
-      left:748px; 
-      top: 350px; 
+      margin-left: 20px;
+      background-color:transparent; 
+      top: 260px; 
       position: absolute; 
       list-style-type: none;
       color: #00F627; 
@@ -65,8 +47,8 @@
    .but1 {
       width: 268px; 
       height: 69px; 
-      left: 703px; 
       top: 732px; 
+      margin-left:-70px;
       position: absolute; 
       background: #00F627; 
       border-radius: 45px; 
@@ -85,7 +67,7 @@
    .but2 {
       width: 268px; 
       height: 69px; 
-      left: 1032px; 
+      margin-left:225px;
       top: 732px; 
       position: absolute; 
       background: black; 
@@ -103,99 +85,11 @@
       border-radius: 45px; 
       color: black; 
    }
-   #work {
-      margin-top: 1000px;
-      margin-right: 40px;
-   }
-   .title-1 {
-      background-color:transparent;
-      text-align: center;
-      color: #00F627;
-      font-family:'Quicksand', sans-serif;
-      font-size: 50px;
-      font-weight: 700;
-      text-transform: capitalize;
-      letter-spacing: 6px;
-      word-wrap: break-word;
-   }
-   .lor1 {
-      color: #00F627;
-      text-align: right;
-      font-family:'Quicksand', sans-serif;
-      font-size: 20px;
-      font-weight:100;
-      padding-right: 40px;
-      background-image: url(peter-stumpf-yk9VXp4W5-Q-unsplash-1.jpg), linear-gradient(261deg, rgba(0, 0, 0, 0) 21%, rgba(0, 0, 0, 0.54) 78%, black 100%);
-      background-repeat: no-repeat;
-      background-size: 1200px;
-      height:1000px;
-      background-position:right 50px;
-   }
-   
-   .title-2 {
-      text-align: center;
-      color: #00F627;
-      font-family:'Quicksand', sans-serif;
-      font-size: 50px;
-      letter-spacing: 6px;
-      word-wrap: break-word;
-   }
-   .carousel-item {
-      position: absolute;
-      height: -webkit-calc(50% - 18px);
-      height: calc(50% - 18px); 
-      display: block;
-   }
-   #achieve {
-      background-color: #00F627;
-   }
-   .title-3 {
-      text-align: center;
-      color: #000000;
-      font-family:'Quicksand', sans-serif;
-      font-size: 50px;
-      letter-spacing: 6px;
-      word-wrap: break-word;
-   }
-   .certs {
-      width: 1100px;
-      height: 1020px;
-   }
-   img {
-      border-radius: 90px;
-   }
-   .right {
-      padding-right: 600px;
-      padding-left: 1px;
-      
-   }
-   .left {
-      padding-left: 600px;
-      padding-right: 1px;
-   }
-   .balloons {
-      list-style-type: none;
-   }
-   #about {
-      background-color: #00F627;
-   }
-   .title-4 {
-      background-color:transparent;
-      text-align: center;
-      color: #00F627;
-      font-size: 50px;
-      letter-spacing: 6px;
-      word-wrap: break-word;
-   }
-   .piksur {
-      float: left;
-         right: 1000px;
-   }
    .but3 {
       width: 268px; 
       height: 69px; 
-      left: 303px; 
-      top: 9392px; 
+      top: 3632px; 
+      margin-left:-300px;
       position: absolute; 
       background: #00F627; 
       border-radius: 45px; 
@@ -214,8 +108,7 @@
    .but4 {
       width: 268px; 
       height: 69px; 
-      left: 762px; 
-      top: 9392px; 
+      top: 3632px; 
       position: absolute; 
       background: black; 
       border-radius: 45px; 
@@ -232,28 +125,4 @@
       border-radius: 45px; 
       color: black; 
    }
-   #footer {
-      background-color: #00F627;
-   }
 }
- @media only screen and (max-width: 540px) {
-   @font-face {
-      font-family: 'Quicksand', sans-serif;
-      src: url(Quicksand-VariableFont_wght.ttf);
-   }
-   .navs {
-      position: fixed;
-      margin-top: 0;
-      margin-right: 0;
-      background-color: rgb(0, 0, 0);
-   }
-   #navbar {
-      font-size: 50px;
-      margin-right:870px;
-      color:#db3f18;
-      font-family:'Quicksand', sans-serif;
-   }
-   .navbar-brand {
-      margin-top: 10px;
-   }
- }
