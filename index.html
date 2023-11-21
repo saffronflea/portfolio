@@ -3,27 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>saffronflea</title>
-    <link rel="shortcut icon" href="b172ebde240363c9543b9c133000eb3e.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- FA CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
-  </head>
+   <!--logo and tabs-->
+   <title>saffronflea</title>
+   <link rel="shortcut icon" href="b172ebde240363c9543b9c133000eb3e.png" type="image/x-icon">
+   <!--css-->
+   <link rel="stylesheet" href="style.css">
+   <!-- Bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <!-- Tailwind -->
+   <script src="https://cdn.tailwindcss.com"></script>
+   <!--fa cdn-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+   integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+ </head>
 <body>
-  
-
-<nav class="border-[#00F627] bg-[#00F627] dark:border-gray-700 sticky-top">
-  <div class="container container-fluid max-w-screen-xl flex flex-wrap items-center justify-between mx-auto pb-2">
+  <!--navs-->
+<nav class=" bg-[#00F627] dark:border-gray-700 sticky-top">
+  <div class="lg:container lg:container-fluid lg:max-w-screen-xl flex lg:flex-wrap items-center justify-between mx-3 pb-2">
     <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="b172ebde240363c9543b9c133000eb3e.png" class="h-12 w-12" type="image/x-icon"/>
-        <span class="self-center text-5xl whitespace-nowrap dark:text-black">ashy</span>
+        <span class="self-center text-5xl font-[gyathatri] font-semibold swhitespace-nowrap text-black">ashy</span>
     </a>
-    <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
+    <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden sm:bg-black sm:hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-black dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
@@ -32,13 +34,13 @@
     <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
       <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
         <li>
-          <a href="#" class="block py-2 md:p-0 text-2xl text-black bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
+          <a href="#" class="block py-2 md:p-0 text-2xl text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
         </li>
         <li>
           <a href="#work" class="block py-2 md:p-0 text-2xl text-black text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">work</a>
         </li>
         <li>
-          <a href="#achievement" class="block py-2 text-2xl text-black md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">achievements</a>
+          <a href="#achievement" class="block py-2 text-2xl text-black md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">credentials</a>
         </li>
         <li>
           <a href="#services" class="block py-2 text-2xl md:p-0 text-black text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">services</a>
@@ -50,27 +52,25 @@
     </div>
   </div>
 </nav>
-
-  
-      <section id="hero" class=" pt-5 pb-5 bg-black">
+<!--hero-->
+      <section id="hero" class=" pt-5 bg-black">
         <div class="container container-fluid">
             <div class="d-flex justify-content-center">
-                <div  class="feature-box col-2 pl-5">
-                  <br>
-                  <br>
-                  <br>
-                  <img src="ttn-image-2023-11-04-153055622.png" class="mt-30" style="border-radius: 20%;" >
-                </div>
-                  <sec class="headings col-2 ml-4 justify-content-center" style="display: flex; flex-direction: column; margin-left: 310px; ">
-                    <div style="width: 522px; margin-left:-70px; height: 491px; top: 150px; position: absolute; background: rgba(156.19, 61.82, 61.82, 0); border-radius: 45px; border: 6px #00F627 solid"></div>
-                    <div style="width: 515px; margin-left:-30px; height: 492px; top: 121px; position: absolute; background: rgba(156.19, 61.82, 61.82, 0); border-radius: 45px; border: 6px #00F627 solid"></div>
+              <div  class="feature-box lg:col-4 lg:pl-1 ">
+                <img src="ttn-image-2023-11-04-153055622.png" class="pfp">
+              </div>
+                  <sec class="headings lg:col-4 lg:ml-4 justify-content-center">
+                    <div class="box"></div>
+                    <div class="box2"></div>
                     <div class="headline pt-3">
                       <br>
-                        <h1 style="margin-left: -10px;  font-size: 39px; text-transform: capitalize; letter-spacing: 4.40px; "> Willkommen!<br/>I’m ashley nicole d.</h1>
-                        <h3 style="margin-left: -10px; font-size: 28px; letter-spacing: 3.60px;">3rd year BSIT student</h3>
-                        <h3 style="margin-left: -10px; font-size: 20px; letter-spacing: 2.76px;">future IT specialist</h3>
+                        <h1 class="welcome">Willkommen!<br/><p class="welcome1">
+                          I’m Ashley Nicole D.
+                        </p></h1>
+                        <h3 class="course">3rd year BSIT student</h3>
+                        <h3 class="it">future IT specialist</h3>
                     </div>
-                    <div class="subtitle list-group list-group-flus">
+                    <div class="subtitle lg:list-group lg:list-group-flus">
                       <br>
                       <br>
                         <li >i code amateurly.</li>
@@ -78,97 +78,118 @@
                         <li>i design amateurly.</li>
                         <li>aspiring full-stack developer.</li>
                         <br>
-                        <li class=" text-[35px] font-[gyathatri] tracking-[4.20px]" style="margin-left: -30px;">est. 2023</li>
-                        <li style=" font-size: 23px; letter-spacing: 2.76px; margin-left: -30px;">based in The Philippine Island.</li>     
+                        <li class=" text-[35px] font-[gyathatri] tracking-[4.20px]" >est. 2023</li>
+                        <li style=" font-size: 23px; letter-spacing: 2.76px;">based in The Philippine Island.</li>     
                     </div>
                     <div>
-                      <br>
-                      <br>
-                      <br>
                     <button class="but1">contact me</button>
                     <button class="but2">learn more</button>
                 </div>
                 </sec>
-                </div>  
             </div>
-        </div>
       </section>
-
-
-    <sec id="work">
-            <section id="testimonial" class="bg-black text-center grid justify-items-stretch">
-              <h2 class="font-semibold text-5xl" style=" text-align: center;"><br><br>My Work<br><br></h2>
- 
+      <!--work-->
+    <sec id="work" style="margin-top: 300px;">
+      <h2 class="font-semibold text-5xl bg-black" style=" text-align: center;"><br>
+        <br>My Work<br><br></h2>
+            <section id="testimonial" class="bg-black text-center grid justify-items-center" style="background-image: url(videoediting.png); background-repeat: no-repeat; background-position: center center;">
                 <div class="row">
- 
                     <div class="col-12">
- 
+                        <div style="text-align: left; margin-left: 40px; color: #00F627; font-size: 50px; font-family: Gayathri; font-weight: 700; text-transform: lowercase; letter-spacing: 6px; word-wrap: break-word">videoediting</div>
+                        <p class="container container-fluid" style="font-size: 20px; text-align: left; margin-left: 70px;">&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fuga cupiditate vel, animi vero tempora aperiam officia odit non illum libero ex ab commodi quidem blanditiis quae amet cum impedit.</p>
                         <div id="carouselExample" class="carousel slide">
                           <div></div>
- 
                             <div class="carousel-inner">
- 
                               <div class="carousel-item active">
                                 <br>
                                 <br>
-                                    <video class="img-fluid" autoplay loop muted style="width: 30%; margin-left: 500px; border-radius: 10%; ">
+                                    <video class="img-fluid" autoplay loop muted>
                                         <source src="Snapinsta.app_video_318358109_350956180714353_6900760413912872456_n.mp4" type="video/mp4">
                                     </video>
-                                    <audio autoplay id="myaudio">
-                                      <source src="Snapinsta.app_video_318358109_350956180714353_6900760413912872456_n.mp4">
-                                    </audio>
-                                    <div class="carousel-caption d-none d-md-block ml-14">
-                                      <h5>Genshin Impact</h5>
-                                      <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <div class="carousel-caption d-none d-md-block" >
+                                      <div class="container">
+                                        <div class="row">
+                                          <div class="col-lg">
+                                          </div>
+                                          <div class="col-lg">
+                                            <h5>Genshin Impact</h5>
+                                            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                          </div>
+                                          <div class="col-lg">
+                                          </div>
+                                        </div>
+                                      </div>
                                     </div>
                               </div>
                               <div class="carousel-item">
                                 <br><br>
-                                    <video class="img-fluid" autoplay loop muted style="width: 30%; margin-left: 500px; border-radius: 10%">
+                                    <video class="img-fluid" autoplay loop muted >
                                         <source src="Snapinsta.app_video_10000000_1968124776897866_2440719317713075673_n (1).mp4" type="video/mp4">
                                     </video>
-                                    <div class="carousel-caption d-none d-md-block ml-14 ">
-                                      <h5>Genshin Impact</h5>
-                                      <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <div class="carousel-caption d-none d-md-block" >
+                                      <div class="container">
+                                        <div class="row">
+                                          <div class="col-lg">
+                                          </div>
+                                          <div class="col-lg">
+                                            <h5>Genshin Impact</h5>
+                                            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                          </div>
+                                          <div class="col-lg">
+                                          </div>
+                                        </div>
+                                      </div>
                                     </div>
                               </div>
                               <div class="carousel-item">
                                 <br>
                                 <br>
-                                    <video class="img-fluid" autoplay loop muted style="width: 30%; margin-left: 500px; border-radius: 10%">
+                                    <video class="img-fluid" autoplay loop muted >
                                         <source src="Snapinsta.app_video_10000000_856612256158699_4001513594985946327_n.mp4" type="video/mp4">
                                     </video>
-                                    <div class="carousel-caption d-none d-md-block ml-14">
-                                      <h5>Genshin Impact</h5>
-                                      <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <div class="carousel-caption d-none d-md-block" >
+                                      <div class="container">
+                                        <div class="row">
+                                          <div class="col-lg">
+                                          </div>
+                                          <div class="col-lg">
+                                            <h5>Genshin Impact</h5>
+                                            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                          </div>
+                                          <div class="col-lg">
+                                          </div>
+                                        </div>
+                                      </div>
                                     </div>
                               </div>
                               <div class="carousel-item">
                                 <br>
                                 <br>
-                                    <video class="img-fluid" autoplay loop muted style="width: 30%; margin-left: 500px; border-radius: 10%">
+                                    <video class="img-fluid" autoplay loop muted >
                                         <source src="Snapinsta.app_video_10000000_1334550040833188_775965866753178632_n.mp4 " type="video/mp4">
                                     </video>
-                                    <div class="carousel-caption d-none d-md-block ml-14" >
-                                      <h5>I'm Not That Kind of Talent</h5>
-                                      <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <div class="carousel-caption d-none d-md-block" >
+                                      <div class="container">
+                                        <div class="row">
+                                          <div class="col-lg">
+                                          </div>
+                                          <div class="col-lg">
+                                            <h5>I'm Not That Kind of Talent</h5>
+                                            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                          </div>
+                                          <div class="col-lg">
+                                          </div>
+                                        </div>
+                                      </div>
                                     </div>
                               </div>
- 
                             </div>
- 
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
- 
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
- 
                                     <span class="visually-hidden">Previous</span>
- 
                                 </button>
- 
                                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
- 
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
- 
                                     <span class="visually-hidden">Next</span>
  
                                 </button>
@@ -186,40 +207,144 @@
                 <div></div>
  
             </section>
+            <section id="testimonial" class="bg-black text-center grid justify-items-center" style="background-image: url(Untitled\ design\ \(1\).png); background-repeat: no-repeat; background-position: center center;">
+
+              <div class="row">
+
+                  <div class="col-12">
+                      <div style="text-align: left; margin-left: 40px; color: #00F627; font-size: 50px; font-family: Gayathri; font-weight: 700; text-transform: lowercase; letter-spacing: 6px; word-wrap: break-word">webdesigning</div>
+                      <p class="container container-fluid" style="font-size: 20px; text-align: left; margin-left: 70px;">&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta fuga cupiditate vel, animi vero tempora aperiam officia odit non illum libero ex ab commodi quidem blanditiis quae amet cum impedit.</p>
+                      <div id="carouselExample2" class="carousel slide">
+                        <div></div>
+
+                          <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                              <br>
+                              <br>
+                              <img src="(CROPPING) ACT2.2.1.png" alt="" class="web">
+                            </div>
+                            <div class="carousel-item">
+                              <br><br>
+                              <img src="(CROPPING) ACT2.2.2.png" alt="" class="web">
+                            </div>
+                            <div class="carousel-item">
+                              <br>
+                              <br>
+                              <img src="(CROPPING) ACT2.2.3.png" alt="" class="web">
+                            </div>
+                            <div class="carousel-item">
+                              <br>
+                              <br>
+                                  <img src="GRAPHICS) ACT2.1.3.png" alt="" class="web">
+                            </div>
+                            <div class="carousel-item">
+                              <br>
+                              <br>
+                                  <img src="(OVERLAY - SPA) ACT2.1.1.png" alt="" class="web">
+                            </div>
+                            <div class="carousel-item">
+                              <br>
+                              <br>
+                                  <img src="(OVERLAY - TRAVEL) ACT2.1.2.png" alt="" class="web">
+                            </div>
+
+                          </div>
+
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                                  <span class="visually-hidden">Previous</span>
+
+                              </button>
+
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                                  <span class="visually-hidden">Next</span>
+
+                              </button>
+
+                        </div>
+
+                  </div>
+
+              </div>
+
+              <br>
+
+              <br><br><br><br>
+
+              <div></div>
+
+          </section>
             </sec>
           </sec>
-            <section id="achievement" class="bg-[#00F627] text-center grid justify-items-stretch">
+          <!--achievement-->
+            <section id="achievement" class="bg-[#00F627] text-center grid justify-items-stretch" >
               <br><br><br><br><br>
               <h2 class="font-semibold text-5xl  text-black" style=" text-align: center;">achievements</h2> 
               <br><br><br><br>
                 <div style="margin-bottom: 100px;">
-                <div class="row" style="padding-bottom: 90px;">
-                    <img src="Ashley NicoleDominguez-Fundamentals of -certificate_page-0001.jpg" style="width: 25%;  margin-bottom: 100px;" alt="">
+                  <section id="testimonial" class="text-center grid justify-items-center">
+                    <div class="row">
+                        <div class="col-12">
+                          <div id="carouselExample3" class="carousel slide">
+                              <div></div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <br>
+                                    <br>
+                                    <img src="Ashley NicoleDominguez-Fundamentals of -certificate_page-0001.jpg" alt="" class="web">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <br><br>
+                                    <img src="Ashley NicoleDominguez-ITEL-1 Object-Or-certificate (1)_page-0001.jpg" alt="" class="web">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <br>
+                                    <br>
+                                    <img src="Ashley NicoleDominguez-Networking 1-certificate_page-0001.jpg" alt="" class="web">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <br>
+                                    <br>
+                                        <img src="Coursera 2KFZMNYCV775_page-0001.jpg" alt="" class="web">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <br>
+                                    <br>
+                                        <img src="Coursera K856ZNUBS5BB_page-0001.jpg" alt="" class="web">
+                                  </div>
+                                </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
                     <br>
-                    <img src="Ashley NicoleDominguez-ITEL-1 Object-Or-certificate (1)_page-0001.jpg" style="width: 25%; margin-left: 100px;  margin-bottom: 100px;" alt="">
-                    <br>
-                    <img src="Ashley NicoleDominguez-Networking 1-certificate_page-0001.jpg" style="width: 25%; margin-left: 100px;  margin-bottom: 100px;" alt="">
-                   <br>
-                   <img src="Ashley NicoleDominguez-Networking 1-certificate_page-0001.jpg" style="width: 25%; margin-left: 100px;" alt="">
-                   <br>
-                   <img src="Ashley NicoleDominguez-Networking 1-certificate_page-0001.jpg" style="width: 25%; margin-left: 100px;" alt="">
-                </div>
- 
-            </section>
- 
- 
+                    <br><br><br><br>
+                    <div></div>
+                </section>
+                  </sec>
+                </sec>
+                <!--services-->
             <section id="services" class="bg-black" style="display: grid; justify-content: center;">  
- 
                 <div>        
                   <br><br><br><br><br><br>
              <h2 class="font-semibold text-5xl" style=" text-align: center;">my services</h2>        
              </div>         
              <div class="d-flex" style="padding: 50px; ">      
- 
               <div style="margin-right: 50px;">            
- 
               <div class="card  bg-[#00F627] mb-3" style="max-width: 45rem; text-align: center; margin-left: 50px;">              
- 
                <div class="card-header text-2xl"> webdesigning               
               </div>                 
               <div class="card-body">                              
@@ -227,13 +352,9 @@
                   sumthing</p>                  
                 <br><br><br><br><br><br><br>              
              </div>                 
- 
                  </div>      
- 
               </div>      
- 
               <div style="margin-right: 50px;">            
- 
              <div class="card border-[#00F627] bg-black mb-3" style="max-width: 45rem; text-align: center;"> 
                      <div class="card-header bg-transparent text-[#00F627] text-2xl">video editing 
                       skills             
@@ -243,11 +364,8 @@
               <br><br><br><br><br><br><br> 
             </div>                          
               </div>    
- 
                </div>            
- 
                <div style="margin-right: 50px;">            
- 
                 <div class="card bg-[#00F627] text-black mb-3" style="max-width: 45rem; text-align: center;"> 
                         <div class="card-header bg-transparent text-2xl">programming
                    </div>                
@@ -256,51 +374,79 @@
                  <br><br><br><br><br><br><br> 
                </div>                          
                  </div>    
-    
+                 <br><br>    
                   </div>      
                  </div>          
                </div>    
                </div>
-             </section>    
              </section>
- 
- 
+            </section>
+            <section id="about" class="bg-[#00F627] p-20">
+              <br>
+              <h1 class="font-semibold text-5xl text-black" style="text-align: center;">about me</h1>
+              <div class="container container-fluid p-10">
+                <div class="d-flex justify-content-center">
+                    <div  class="feature-box col-4 pl-5">
+                      <br>
+                      <br>
+                      <br>
+                      <img src="ttn-image-2023-11-04-153055622.png" class="" style="border-radius: 20%; width: 800px; margin-left: 100px; margin-top: -10px; margin-bottom: 60px;" >
+                    </div>
+                      <sec class="col-6 justify-content-center" style="display: flex; flex-direction: column; margin-left: 210px; ">
+                        <p class="text-black " style="font-size: 18px;">&nbsp;&nbsp;&nbsp;&nbsp;ashley nicole b. dominguez is an aspirant
+                          part of student body of guagua national coleges.
+                          she is a filipino, but part cookie. she is inspired to
+                          become a computer-literate buffoon from the 
+                          character named an ‘edward dace’, a hero in the 
+                          wattpad novel seven-minute semblance. she got 
+                          this intention before also acquiring the idea that 
+                          computer-related programs are hard to study. 
+                          she thought you only type shizz in the screen.
+                          <br>
+                          <br>&nbsp;&nbsp;&nbsp;&nbsp;
+                           she’s nearing her edge of withdrawal. im feeling
+                          it, really.
+                          <br>
+                          <br>&nbsp;&nbsp;&nbsp;&nbsp;
+                           also, she’s a somehow hardworking smart person.
+                          when she have a free time, she do a lots of video
+                          editing, mostly fan-video of animes and mangas.
+                          but don’t force her to do this, even make her do a 
+                          video edit as a activity in school. she never done 
+                          it.
+                          <br>
+                          <br>&nbsp;&nbsp;&nbsp;&nbsp;
+                           she is knowlegdable in programming laNGUAGE: PYTHON, MYSQL, SQL, HTML, CSS, BOOTSTRAP IN Amateur level, perchance. cuz she is still studying, her reasons.
+                          </p>
+                    </sec>
+                    </div>  
+                </div>
+            </div>
+            </section>
             <section id="trueLove" class="bg-black text-center" style="padding: 150px 0;">
- 
                 <h1 style="margin-bottom:50px;font-size: 50px;">i am as pleases as you to help you!!</h1>
-                <br><br>
+                <br>
                 <button class="but3">contact me</button>
-                <button class="but4">contact me</button>
- 
+                <button class="but4">learn more</button>
             </section>
- 
             <section id="footer" class="bg-[#00F627] justify-content-center" style="height: 200px; display: grid; align-items: center; justify-content: center;">
- 
-                <div style="text-align: center;">
- 
-                    <i class="fa-brands fa-twitter text-black" style="margin-right: 50px;"></i>
-                    <i class="fa-brands fa-facebook text-black" style="margin-right: 50px;"></i>
-                    <i class="fa-brands fa-instagram text-black" style="margin-right: 50px;"></i>
-                    <a href=""><i class="fa-brands fa-gmail text-black" style="margin-right: 50px;"></i></a>
+              <div class="col-12"></div>
+                <div style="text-align: center; " class="col-12">
+                    <a href="https://twitter.com/andmngz"><i class="fa-brands fa-twitter text-black" style="margin-right: 50px;"></i></a>
+                    <a href="https://www.facebook.com/ashymacarony/"><i class="fa-brands fa-facebook text-black" style="margin-right: 50px;"></i></a>
+                    <a href="https://www.instagram.com/disappiontmemt/"><i class="fa-brands fa-instagram text-black" style="margin-right: 50px;"></i></a>
+                    <a href="https://www.tiktok.com/@saffronflea?lang=en"><i class="fa-brands fa-tiktok text-black" style="margin-right: 50px;"></i></a>
+                <div >
+                  <br><br><br>
+                  <em class="text-black font-bold">copyright &copy;&nbsp;&nbsp;2023 all rights reserve. <br></em>
+                  <em class="text-black font-bold">ashley nicole b.dominguez</em>
                 </div>
-               
-                <div>
- 
-                    <p class="text-black">lore ipsum lorem ipsum lorem ipsum lorem ipsum</p>
- 
                 </div>
- 
+                <div class="col-12"></div>
             </section>
- 
- 
     <!-- JS Bootstrap cdn-->
- 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
- 
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
- 
     </script>
- 
 </body>
- 
 </html>
